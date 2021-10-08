@@ -15,6 +15,15 @@ namespace DBP_과제3_GITHUB_김서지_5584534
         public Form1()
         {
             InitializeComponent();
+            printHelloWorld();
+        }
+
+        private void printHelloWorld()
+        {
+            TextBox textBox = new TextBox();
+            textBox.Text = "Hello World.";
+
+            Controls.Add(textBox);
         }
     }
 }
